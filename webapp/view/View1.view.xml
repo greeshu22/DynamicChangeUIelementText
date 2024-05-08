@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.anjali.dynamicuielements.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+       <content>
+       <Text id="idText" text="Welcome to SapUI5" width="100%" textAlign="Center"></Text>
+       <Label id="idEmployeeName" text="Employee name" class="sapUiSmallMargin"></Label>
+       <Input  id="idInput" value="ravi" width="30%" enabled="true" class="sapUiSmallMargin"></Input>
+       <Label id="idAlignlabel" text="Enter alignment" class="sapUiSmallMargin"></Label>
+       <Input width="30%" id="idInputAlign" class="sapUiSmallMargin"></Input>
+       <Button id="idButton" text="Submit" type="Emphasized" press="onSubmit"  class="sapUiSmallMargin"></Button>
+       </content>
+    </Page>
+</mvc:View>
